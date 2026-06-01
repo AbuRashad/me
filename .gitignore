@@ -1,0 +1,28 @@
+# ---- Python / FastAPI backend ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+*.db
+*.sqlite3
+
+# ---- Node / React frontend ----
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# ---- Keep the examples, ignore the real ones ----
+!.env.example
+!env.example
